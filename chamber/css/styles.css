@@ -1,0 +1,129 @@
+/* Normalize CSS (use a basic normalize reset or link to external normalize.css) */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+}
+
+#member-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.member-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.member-card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* List View */
+.list-view .member-card {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.list-view .member-card img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        display: block;
+        margin-top: 10px;
+    }
+
+    #member-container {
+        grid-template-columns: 1fr;
+    }
+
+    .member-card {
+        padding: 15px;
+    }
+}
+
+/* Accessibility and Placeholder Styles */
+nav ul li a:focus {
+    outline: 2px solid #ffcc00;
+}
+
+.member-card:focus {
+    outline: 2px solid #003366;
+}
+
+#member-container::before {
+    content: "Loading members...";
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px 0;
+}
+
+#member-container.loaded::before {
+    content: ""; /* Remove placeholder once loaded */
+}

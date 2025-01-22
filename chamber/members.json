@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Access Communication Ltd",
+        "address": "Masauko Chipembere Hwy, Blantyre, Malawi",
+        "phone": "+265 (0) 212 200 200",
+        "website": "https://www.access.mw/",
+        "membership_level": "Gold",
+        "image": "images/access_communication_limited.jpg"
+    },
+    {
+        "name": "Siku Transport Limited",
+        "address": "456 Elm St, Townsville, Malawi",
+        "phone": "+265 999 821 074",
+        "website": "https://www.sikumw.com/",
+        "membership_level": "Silver",
+        "image": "images/siku_transport_limited.jpg"
+    },
+    {
+        "name": "Blantyre Water Board",
+        "address": "Blantyre Water Board, Blantyre 3, Malawi",
+        "phone": "+265 (0) 1 895 000",
+        "website": "https://www.bwb.mw/index.php",
+        "membership_level": "Platinum",
+        "image": "images/blantyre_water_board.jpg"
+    },
+    {
+        "name": "The Times Group",
+        "address": "Private Bag 39, Blantyre, Malawi",
+        "phone": "+265 883 397 233",
+        "website": "https://times.mw/",
+        "membership_level": "Gold",
+        "image": "images/the_times_group.jpg"
+    },
+    {
+        "name": "ESCOM Limited",
+        "address": "9 Haile Selassie Road, Blantyre, Malawi",
+        "phone": "+265 111 822 000",
+        "website": "https://www.escom.mw/",
+        "membership_level": "Silver",
+        "image": "images/escom_limited.jpg"
+    },
+    {
+        "name": "Telekom Networks Malawi",
+        "address": "Glyn Jones Road, P.O. Box 3039, Blantyre, Malawi",
+        "phone": "+265 888 800 800",
+        "website": "http://www.tnm.co.mw/",
+        "membership_level": "Platinum",
+        "image": "images/telekom_networks_malawi.jpg"
+    },
+    {
+        "name": "Airtel Malawi",
+        "address": "Airtel Complex, City Centre, Off Convention Drive, Lilongwe, Malawi",
+        "phone": "+265 999 901 030",
+        "website": "https://www.airtel.mw/",
+        "membership_level": "Silver",
+        "image": "images/airtel_malawi.jpg"
+    }
+]

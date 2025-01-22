@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Malawi Coffee Growers",
+    "address": "123 Main Street, Lilongwe, Malawi",
+    "phone": "+265 987 654 321",
+    "website_url": "https://www.malawicoffee.com",
+    "image_file_name": "coffee-growers.jpg",
+    "membership_level": "Gold"
+  },
+  {
+    "name": "Lake Malawi Tours",
+    "address": "456 Beach Rd, Mangochi, Malawi",
+    "phone": "+265 888 123 456",
+    "website_url": "https://www.lakemalawitours.com",
+    "image_file_name": "lake-tours.jpg",
+    "membership_level": "Silver"
+  },
+  {
+    "name": "African Handicrafts",
+    "address": "789 Market Ave, Blantyre, Malawi",
+    "phone": "+265 999 321 987",
+    "website_url": "https://www.africanhandicrafts.com",
+    "image_file_name": "handicrafts.jpg",
+    "membership_level": "Bronze"
+  },
+  {
+    "name": "Blantyre IT Solutions",
+    "address": "101 Tech Blvd, Blantyre, Malawi",
+    "phone": "+265 912 345 678",
+    "website_url": "https://www.blantyreits.com",
+    "image_file_name": "it-solutions.jpg",
+    "membership_level": "Gold"
+  },
+  {
+    "name": "Safari Adventures",
+    "address": "202 Wildlife Rd, Zomba, Malawi",
+    "phone": "+265 934 567 890",
+    "website_url": "https://www.safariadventures.com",
+    "image_file_name": "safari.jpg",
+    "membership_level": "Silver"
+  },
+  {
+    "name": "Malawi Organic Produce",
+    "address": "303 Green Way, Dedza, Malawi",
+    "phone": "+265 956 789 123",
+    "website_url": "https://www.malawiorganic.com",
+    "image_file_name": "organic-produce.jpg",
+    "membership_level": "Bronze"
+  },
+  {
+    "name": "Heritage Hotels",
+    "address": "404 Heritage St, Lilongwe, Malawi",
+    "phone": "+265 911 223 344",
+    "website_url": "https://www.heritagehotels.com",
+    "image_file_name": "heritage-hotels.jpg",
+    "membership_level": "Gold"
+  }
+]
