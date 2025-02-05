@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber of Commerce Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <h1>Welcome to the Chamber of Commerce</h1>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero Section">
+      <img src="images/hero_image.jpeg" alt="Welcome to the Chamber" class="hero-image" loading="lazy">
+      <div class="hero-text">
+        <h2>Connecting Businesses for a Better Tomorrow</h2>
+        <p>Join us to grow your network and support your local community.</p>
+        <a href="join.html" class="cta-button">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather" aria-label="Current Weather">
+      <h2>Current Weather</h2>
+      <div class="weather-info">
+        <p id="current-weather">Loading weather data...</p>
+        <div id="forecast" class="forecast"></div>
+      </div>
+    </section>
+
+    <!-- Spotlight Section -->
+    <section class="spotlights" aria-label="Member Spotlights">
+      <h2>Member Spotlights</h2>
+      <p id="spotlight-loading">Loading featured members...</p>
+      <div id="spotlight-container" class="spotlight-grid">
+        <!-- Member spotlight cards will be dynamically loaded -->
+      </div>
+    </section>
+
+    <!-- Current Events Section -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>Business Networking - January 30, 2025</li>
+        <li>Leadership Workshop - February 15, 2025</li>
+        <li>Annual Chamber Gala - March 10, 2025</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chervester Nyasulu | BYU-Idaho Software Development</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+    <p><a href="/privacy-policy.html" aria-label="Privacy Policy">Privacy Policy</a></p>
+  </footer>
+  
+  <script src="script.js" defer></script>
+</body>
+</html>
